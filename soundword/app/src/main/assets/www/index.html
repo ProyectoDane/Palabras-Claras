@@ -1,0 +1,227 @@
+<!DOCTYPE html> 
+<html> 	
+<head> 
+    <title>PALABRAS CLARAS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="css/jquery-ui.css"/>
+	<link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link href="css/font-awesome.css" rel="stylesheet">
+
+	<script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.mobile-1.2.0.min.js"></script>
+	<script src="js/purl.js"></script>	
+	<script src="js/cordova-2.2.0.js"></script>
+	<script src="js/Palabras.js"></script>
+	<script src="js/Nivel.js"></script>
+	<script src="js/OpcionJuego.js"></script>
+	<script src="js/wordGameCategories.js"></script>
+	<script src="js/wordGame.js"></script>		
+	<style>
+	.shakeimage{
+	position:relative
+	}
+	
+	.ui-header .ui-title {
+    	margin-right: 10%;
+   		margin-left: 10%;
+	}
+	</style>
+	
+</head> 
+
+<body>
+
+	<div data-role='page' id='select_category'>
+		<script type="text/javascript">
+			$('#select_category').on('pageinit', createWords);
+		</script>
+
+        <header class="header">
+            <div class="brand">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Logo Palabras Claves" />
+                    <h1>Palabras <span class="color-brand">Claras</span><span>RECONOCIMIENTO DE PALABRAS</span></h1>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="choose-words">
+                <div class="container">
+                    <ul class="menu">
+                        <li><a class="bt principal-button" href="#"  onclick="goToSelectLevel('aislada')">PALABRAS SUELTAS</a></li>
+                        <li><a class="bt general-button" href="#" onclick="goToSelectLevel('contexto')">PALABRAS EN FRASES</a></li>
+                        <li class="help">
+                            <a class="help results" href="#fin_juego">VER RESULTADOS</a>
+                            <a class="help" href="#">DEMO <i class="icon-help icon-question-sign"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+		
+	</div>
+	<div data-role='page' id='select_type_level'>
+
+        <header>
+            <div class="only brand">
+                <div class="logo navBar">
+                    <h1>Palabras <span class="color-brand">Claras</span></h1>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="level-options">
+                <div class="container">
+                    <div class="content-box">
+                        <!--<h2>PALABRAS AISLADAS</h2>-->
+                        <div class="content-levels">
+                            <div class="levels">
+                                <div class="word">
+                                    <h3>COSAS Y ANIMALES</h3>
+                                </div>
+                                <ul id='cosas'>
+
+                                </ul>
+                            </div>
+                            <div class="levels">
+                                <div class="word">
+                                    <h3>ACCIONES</h3>
+                                </div>
+                                <ul id='acciones'>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="help"><a href="#">DEMO <i class="icon-help icon-question-sign"></i></a></p>
+                </div>
+            </section>
+        </main>
+	</div>
+	
+	<div data-role='page' id='juego'>
+		<div data-role='header'> 
+		</div>
+		
+		<div data-role='content' id='cont_juego'>
+            <header>
+                <div class="only brand">
+                    <div class="logo navBar">
+                        <h1>Palabras <span class="color-brand">Claras</span></h1>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <section class="level-options">
+                    <div class="container">
+                        <ul class="breadcrumb">
+                            <li><a href="#select_category"><i class="icon-back icon-chevron-left"></i> VOLVER A INICIO</a></li>
+                        </ul>
+                        <div class="content-box">
+                            <p class="subtitle">HAGA CLICK EN "ESCUCHAR" Y SELECCION&Aacute; LA IMAGEN CORRECTA <a href="#" onclick="escucharConsigna()"> <i class="icon-audio icon-volume-up"></i></a>
+                            </p>
+                            <!--<div class="see-more"><a href="#"><i class="icon-video icon-facetime-video"></i>VER EJEMPLO</a></div>-->
+
+                            <div class="choose-images">
+                                <div id="imagenes_juego_0"></div>
+                                <div class="btn-audio">
+                                    <a href="#" class="bt bt-small" id='boton_sonido'>
+                                        ESCUCHAR<br/>
+                                        <i class="icon-audio icon-volume-up"></i>
+                                    </a>
+                                </div>
+                                <div id="imagenes_juego_1"></div>
+                            </div>
+                        </div>
+                        <div id='modalcorrect' class="modalCorrect"></div>
+                        <p class="help"><a href="#">DEMO <i class="icon-help icon-question-sign"></i></a></p>
+                        <div id="progressbar"></div>
+                    </div>
+                </section>
+            </main>
+		</div>
+	</div>
+	
+	<div data-role='page' id='fin_juego'>
+        <header>
+            <div class="only brand">
+                <div class="logo navBar">
+                    <h1>Palabras <span class="color-brand">Claras</span></h1>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="level-options">
+                <div class="container">
+                    <ul class="breadcrumb">
+                        <li><a href="#select_category"><i class="icon-back icon-chevron-left"></i> VOLVER A INICIO</a></li>
+                    </ul>
+                    <div class="content-box">
+                        <h2 class="title-end">PUNTAJE FINAL</h2>
+                        <table class="table">
+                            <colgroup>
+                                <col class="col1" />
+                                <col class="col2" />
+                            </colgroup>
+                            <tbody>
+                            <tr id='correctas'>
+
+                            </tr>
+                            <tr id='incorrectas'>
+
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="see-more" data-role="collapsible">
+                        <h3><a href="#">VER DETALLE</a></h3>
+                        <table class="table">
+                            <colgroup>
+                                <col class="col1" />
+                                <col class="col2" />
+                            </colgroup>
+                            <tbody>
+                                <tr id='inc_formal'>
+
+                                </tr>
+                                <tr id='inc_semantico'>
+
+                                </tr>
+                                <tr id='inc_no_relacionado'>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="help"><a href="#">DEMO <i class="icon-help icon-question-sign"></i></a></p>
+                </div>
+            </section>
+        </main>
+	</div>
+	
+	<div data-role='page' id='ejemplo'>
+		<div data-role='header'> 
+			<h1> Ejemplo </h1>
+		</div>
+		<div data-role='content'>
+			<p> Ac&aacute; ir&iacute;a el video </p>
+		</div>
+	</div>
+	
+	<div data-role='page' id='help'>
+		<div data-role='header'> 
+			<h1> Ayuda </h1>
+		</div>
+		<div data-role='content'>
+			
+			<p> Ac&aacute; ir&iacute;a el texto de ayuda </p>
+		</div>
+	</div>
+</body>
+</html>
