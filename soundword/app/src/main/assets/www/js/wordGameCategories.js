@@ -4,8 +4,316 @@ const DISTRACTOR_NO_RELACIONADO = 2;
 const CORRECTA = 3;
 const SONIDO_CONSIGNA = '/android_asset/www/audio/perro.mp3';
 
-var niveles_palabras_aisladas_sustantivos = [ //Niveles
-  [ //Nivel
+var niveles_palabras_aisladas_cosas = [ //Niveles
+  [ //Nivel 1
+    [ //Sub-nivel
+      {
+        'text': 'Mesa',
+        'sound': '/android_asset/www/audio/mesa.mp3', 
+        'wordSound' : '/android_asset/www/audio/word_mesa.mp3'
+      }, 
+      {
+        'image': 'images/mesa.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/silla.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],    
+    [ //Sub-nivel
+      {
+        'text': 'Sillon',
+        'sound': '/android_asset/www/audio/sillon.mp3', 
+        'wordSound' : '/android_asset/www/audio/word_sillon.mp3'
+      }, 
+      {
+        'image': 'images/sillon.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/mesa.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [//Sub-nivel
+      {
+        'text': 'Cama',
+        'sound': '/android_asset/www/audio/cama.mp3', 
+        'wordSound' : '/android_asset/www/audio/word_cama.mp3'
+      }, 
+      {
+        'image': 'images/cama.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/sofa.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [//Sub-nivel
+      {
+        'text': 'Heladera',
+        'sound': '/android_asset/www/audio/heladera.mp3', 
+        'wordSound' : '/android_asset/www/audio/word_heladera.mp3'
+      }, 
+      {
+        'image': 'images/heladera.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/lavarropas.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [//Sub-nivel
+      {
+        'text': 'Perro',
+        'sound': '/android_asset/www/audio/perro.mp3', 
+        'wordSound' : '/android_asset/www/audio/word_perro.mp3'
+      }, 
+      {
+        'image': 'images/perro.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/gato.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [//Sub-nivel
+      {
+        'text': 'Caballo',
+        'sound': '/android_asset/www/audio/caballo.mp3', 
+        'wordSound' : '/android_asset/www/audio/word_caballo.mp3'
+      }, 
+      {
+        'image': 'images/caballo.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/cebra.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [//Sub-nivel
+      {
+        'text': 'Loro',
+        'sound': '/android_asset/www/audio/loro.mp3', 
+        'wordSound' : '/android_asset/www/audio/word_loro.mp3'
+      }, 
+      {
+        'image': 'images/loro.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/pajaro.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [//Sub-nivel
+      {
+        'text': 'Gallo',
+        'sound': '/android_asset/www/audio/gallo.mp3', 
+        'wordSound' : '/android_asset/www/audio/word_gallo.mp3'
+      }, 
+      {
+        'image': 'images/gallo.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/gallina.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [//Sub-nivel
+      {
+        'text': 'Rana',
+        'sound': '/android_asset/www/audio/rana.mp3', 
+        'wordSound' : '/android_asset/www/audio/word_rana.mp3'
+      }, 
+      {
+        'image': 'images/rana.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/lagartija.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [//Sub-nivel
+      {
+        'text': 'Camisa',
+        'sound': '/android_asset/www/audio/camisa.mp3', 
+        'wordSound' : '/android_asset/www/audio/word_camisa.mp3'
+      }, 
+      {
+        'image': 'images/camisa.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/pantalon.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [//Sub-nivel
+      {
+        'text': 'Remera',
+        'sound': '/android_asset/www/audio/remera.mp3', 
+        'wordSound' : '/android_asset/www/audio/word_remera.mp3'
+      }, 
+      {
+        'image': 'images/remera.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/pulover.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [//Sub-nivel
+      {
+        'text': 'Bota',
+        'sound': '/android_asset/www/audio/bota.mp3', 
+        'wordSound' : '/android_asset/www/audio/word_bota.mp3'
+      }, 
+      {
+        'image': 'images/bota.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/zapato.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [//Sub-nivel
+      {
+        'text': 'capa',
+        'sound': '/android_asset/www/audio/capa.mp3', 
+        'wordSound' : '/android_asset/www/audio/word_capa.mp3'
+      }, 
+      {
+        'image': 'images/capa.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/vestido.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [//Sub-nivel
+      {
+        'text': 'Gorro',
+        'sound': '/android_asset/www/audio/gorro.mp3', 
+        'wordSound' : '/android_asset/www/audio/word_gorro.mp3'
+      }, 
+      {
+        'image': 'images/gorro.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/bufanda.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [//Sub-nivel
+      {
+        'text': 'Taza',
+        'sound': '/android_asset/www/audio/taza.mp3', 
+        'wordSound' : '/android_asset/www/audio/word_taza.mp3'
+      }, 
+      {
+        'image': 'images/taza.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/vaso.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [//Sub-nivel
+      {
+        'text': 'Sacacorchos',
+        'sound': '/android_asset/www/audio/sacacorchos.mp3', 
+        'wordSound' : '/android_asset/www/audio/word_sacacorchos.mp3'
+      }, 
+      {
+        'image': 'images/sacacorchos.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/abrelatas.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [//Sub-nivel
+      {
+        'text': 'Pala',
+        'sound': '/android_asset/www/audio/pala.mp3', 
+        'wordSound' : '/android_asset/www/audio/word_pala.mp3'
+      }, 
+      {
+        'image': 'images/pala.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/rastrillo.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [//Sub-nivel
+      {
+        'text': 'Martillo',
+        'sound': '/android_asset/www/audio/martillo.mp3', 
+        'wordSound' : '/android_asset/www/audio/word_martillo.mp3'
+      }, 
+      {
+        'image': 'images/martillo.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/pinza.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+  ],
+  [ //Nivel 2
     [ //Sub-nivel
       {
         'text': 'Mesa',
@@ -972,7 +1280,7 @@ var niveles_palabras_aisladas_sustantivos = [ //Niveles
 ];
 
 
-var niveles_palabras_aisladas_verbos	 	= [ //Niveles
+var niveles_palabras_aisladas_acciones = [ //Niveles
   [ //Nivel
     [ //Sub-nivel
      {
@@ -1030,7 +1338,7 @@ var niveles_palabras_aisladas_verbos	 	= [ //Niveles
   ]      
 ];
 
-var niveles_palabras_contexto_sustantivos 	= [ //Niveles
+var niveles_palabras_contexto_cosas = [ //Niveles
   [ //Nivel
     [ //Sub-nivel
       {
@@ -1117,7 +1425,7 @@ var niveles_palabras_contexto_sustantivos 	= [ //Niveles
 ];
 
 
-var niveles_palabras_contexto_verbos	 	= [ //Niveles
+var niveles_palabras_contexto_acciones = [ //Niveles
   [ //Nivel
     [ //Sub-nivel
       {

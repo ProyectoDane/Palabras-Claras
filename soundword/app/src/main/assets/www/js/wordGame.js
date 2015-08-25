@@ -1,7 +1,7 @@
-var palabras_aisladas_sustantivos = new Palabras();
-var palabras_aisladas_verbos = new Palabras();
-var palabras_contexto_sustantivos = new Palabras();
-var palabras_contexto_verbos = new Palabras();
+var palabras_aisladas_cosas = new Palabras();
+var palabras_aisladas_acciones = new Palabras();
+var palabras_contexto_cosas = new Palabras();
+var palabras_contexto_acciones = new Palabras();
 var actual = null;
 
 const COSAS = 'cosas';
@@ -51,10 +51,10 @@ function cargar(palabras, niveles){
 
 function createWords(){
 	//Al iniciar el juego se cargan los niveles para los distintos modos
-	cargar(palabras_aisladas_sustantivos, niveles_palabras_aisladas_sustantivos);
-	cargar(palabras_aisladas_verbos, niveles_palabras_aisladas_verbos);
-	cargar(palabras_contexto_sustantivos, niveles_palabras_aisladas_sustantivos);
-	cargar(palabras_contexto_verbos, niveles_palabras_contexto_verbos);
+	cargar(palabras_aisladas_cosas, niveles_palabras_aisladas_cosas);
+	cargar(palabras_aisladas_acciones, niveles_palabras_aisladas_acciones);
+	cargar(palabras_contexto_cosas, niveles_palabras_aisladas_cosas);
+	cargar(palabras_contexto_acciones, niveles_palabras_contexto_acciones);
 	tipos_opciones_elegidas = [];
 }
 
@@ -76,12 +76,12 @@ function goToSelectLevel(valor){
 	$('#'+COSAS).empty();
 	$('#'+ACCIONES).empty();
 	if (valor == AISLADA){
-		mostrarBotones(palabras_aisladas_sustantivos, COSAS , AISLADA);
-		mostrarBotones(palabras_aisladas_verbos, ACCIONES, AISLADA);
+		mostrarBotones(palabras_aisladas_cosas, COSAS , AISLADA);
+		mostrarBotones(palabras_aisladas_acciones, ACCIONES, AISLADA);
 		anterior = AISLADA;
 	} else if( valor == CONTEXTO){
-		mostrarBotones(palabras_contexto_sustantivos, COSAS, CONTEXTO);
-		mostrarBotones(palabras_contexto_verbos, ACCIONES, CONTEXTO);
+		mostrarBotones(palabras_contexto_cosas, COSAS, CONTEXTO);
+		mostrarBotones(palabras_contexto_acciones, ACCIONES, CONTEXTO);
 		anterior = CONTEXTO;
 	}else{
 		goToSelectLevel(anterior);
@@ -98,19 +98,19 @@ function iniciarJuego(tipo, ais_ctx, nivel){
 	sonido_activado = true;
 	if(tipo == COSAS){
 		if (ais_ctx == AISLADA){
-			palabras_aisladas_sustantivos.jugar_nivel(nivel);
-			actual = palabras_aisladas_sustantivos;
+			palabras_aisladas_cosas.jugar_nivel(nivel);
+			actual = palabras_aisladas_cosas;
 		}else{
-			palabras_contexto_sustantivos.jugar_nivel(nivel);
-			actual = palabras_contexto_sustantivos;
+			palabras_contexto_cosas.jugar_nivel(nivel);
+			actual = palabras_contexto_cosas;
 		}
 	}else{
 		if (ais_ctx == AISLADA){
-			palabras_aisladas_verbos.jugar_nivel(nivel);
-			actual = palabras_aisladas_verbos;
+			palabras_aisladas_acciones.jugar_nivel(nivel);
+			actual = palabras_aisladas_acciones;
 		}else{
-			palabras_contexto_verbos.jugar_nivel(nivel);
-			actual = palabras_contexto_verbos;
+			palabras_contexto_acciones.jugar_nivel(nivel);
+			actual = palabras_contexto_acciones;
 		}
 	}
 }
