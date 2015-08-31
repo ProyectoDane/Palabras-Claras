@@ -88,11 +88,11 @@ var niveles_palabras_aisladas_acciones = [ //Niveles
     [ //Sub-nivel
      {
       'text': 'Revolver',
-      'sound': '/android_asset/www/audio/revolver.mp3',
-      'wordSound' : '/android_asset/www/audio/word_revolver.mp3'
+      'sound': '/android_asset/www/audio/revolver2.mp3',
+      'wordSound' : '/android_asset/www/audio/word_revolver2.mp3'
       },
       {
-        'image': 'images/revolver.jpg', 
+        'image': 'images/revolver2.jpg', 
         'points':100, 
         'type': CORRECTA
       },
@@ -676,23 +676,6 @@ var niveles_palabras_aisladas_acciones = [ //Niveles
       },
       {
         'image': 'images/alzar.jpg', 
-        'points':20, 
-        'type': DISTRACTOR_FORMAL
-      }
-    ],
-    [ //Sub-nivel
-     {
-      'text': 'Ver',
-      'sound': '/android_asset/www/audio/ver.mp3',
-      'wordSound' : '/android_asset/www/audio/word_ver.mp3'
-      },
-      {
-        'image': 'images/ver.jpg', 
-        'points':100, 
-        'type': CORRECTA
-      },
-      {
-        'image': 'images/.jpg', 
         'points':20, 
         'type': DISTRACTOR_FORMAL
       }

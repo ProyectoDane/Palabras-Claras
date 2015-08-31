@@ -206,7 +206,7 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     ],
     [//Sub-nivel
       {
-        'text': 'capa',
+        'text': 'Capa',
         'sound': '/android_asset/www/audio/capa.mp3', 
         'wordSound' : '/android_asset/www/audio/word_capa.mp3'
       }, 

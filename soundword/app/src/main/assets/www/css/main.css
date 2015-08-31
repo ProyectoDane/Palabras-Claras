@@ -990,3 +990,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     transition: color 0.3s;
   }
 }
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}

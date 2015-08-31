@@ -10,7 +10,7 @@ function OpcionJuego(imagen,  tipo){
 OpcionJuego.prototype.mostrar = function(avisar, index){
 	observador = avisar;
 
-	var creadorImg = "<div class='item'><div class='content-image'><img src='"+this.imagen+"' style=\"max-height:260px;\" onclick=\"";
+	var creadorImg = "<div class='item'><div class='content-image'><span class='helper'></span><img src='"+this.imagen+"' style=\"max-height:260px;vertical-align: middle;\" onclick=\"";
 	if (this.es_correcta){
 		creadorImg += "opcionCorrecta()\"/></div></div>";
 	}else{
@@ -41,7 +41,7 @@ For full source code, usage terms, and 100's more DHTML scripts, visit http://dy
 */
 
 //configure shake degree (where larger # equals greater shake)
-const REPETICIONES = 40;
+const REPETICIONES = 10;
 
 var rector=3;
 
@@ -82,6 +82,6 @@ function rattleimage(primero){
 	turno = (turno % 4) + 1;
 	
 	rep++;
-	setTimeout("rattleimage(false)",10);
+	setTimeout("rattleimage(false)",40);
 
 }
