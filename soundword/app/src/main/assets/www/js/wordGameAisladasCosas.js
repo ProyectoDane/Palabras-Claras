@@ -3,8 +3,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [ //Sub-nivel
       {
         'text': 'Mesa',
-        'sound': '/android_asset/www/audio/mesa.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_mesa.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/1.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/1.mp3'
       }, 
       {
         'image': 'images/mesa.jpg', 
@@ -20,8 +20,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [ //Sub-nivel
       {
         'text': 'Sillon',
-        'sound': '/android_asset/www/audio/sillon.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_sillon.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/3.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/3.mp3'
       }, 
       {
         'image': 'images/sillon.jpg', 
@@ -37,8 +37,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Cama',
-        'sound': '/android_asset/www/audio/cama.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_cama.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/5.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/5.mp3'
       }, 
       {
         'image': 'images/cama.jpg', 
@@ -54,8 +54,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Heladera',
-        'sound': '/android_asset/www/audio/heladera.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_heladera.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/7.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/7.mp3'
       }, 
       {
         'image': 'images/heladera.jpg', 
@@ -71,8 +71,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Perro',
-        'sound': '/android_asset/www/audio/perro.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_perro.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/9.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/9.mp3'
       }, 
       {
         'image': 'images/perro.jpg', 
@@ -88,8 +88,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Caballo',
-        'sound': '/android_asset/www/audio/caballo.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_caballo.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/11.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/11.mp3'
       }, 
       {
         'image': 'images/caballo.jpg', 
@@ -105,8 +105,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Loro',
-        'sound': '/android_asset/www/audio/loro.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_loro.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/13.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/13.mp3'
       }, 
       {
         'image': 'images/loro.jpg', 
@@ -122,8 +122,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Gallo',
-        'sound': '/android_asset/www/audio/gallo.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_gallo.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/15.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/15.mp3'
       }, 
       {
         'image': 'images/gallo.jpg', 
@@ -139,8 +139,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Rana',
-        'sound': '/android_asset/www/audio/rana.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_rana.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/17.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/17.mp3'
       }, 
       {
         'image': 'images/rana.jpg', 
@@ -156,8 +156,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Camisa',
-        'sound': '/android_asset/www/audio/camisa.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_camisa.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/19.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/19.mp3'
       }, 
       {
         'image': 'images/camisa.jpg', 
@@ -173,8 +173,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Remera',
-        'sound': '/android_asset/www/audio/remera.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_remera.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/21.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/21.mp3'
       }, 
       {
         'image': 'images/remera.jpg', 
@@ -190,8 +190,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Bota',
-        'sound': '/android_asset/www/audio/bota.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_bota.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/23.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/23.mp3'
       }, 
       {
         'image': 'images/bota.jpg', 
@@ -207,8 +207,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Capa',
-        'sound': '/android_asset/www/audio/capa.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_capa.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/25.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/25.mp3'
       }, 
       {
         'image': 'images/capa.jpg', 
@@ -224,8 +224,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Gorro',
-        'sound': '/android_asset/www/audio/gorro.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_gorro.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/27.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/27.mp3'
       }, 
       {
         'image': 'images/gorro.jpg', 
@@ -241,8 +241,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Taza',
-        'sound': '/android_asset/www/audio/taza.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_taza.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/29.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/29.mp3'
       }, 
       {
         'image': 'images/taza.jpg', 
@@ -258,8 +258,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Sacacorchos',
-        'sound': '/android_asset/www/audio/sacacorchos.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_sacacorchos.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/31.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/31.mp3'
       }, 
       {
         'image': 'images/sacacorchos.jpg', 
@@ -275,8 +275,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Pala',
-        'sound': '/android_asset/www/audio/pala.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_pala.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/33.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/33.mp3'
       }, 
       {
         'image': 'images/pala.jpg', 
@@ -292,8 +292,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Martillo',
-        'sound': '/android_asset/www/audio/martillo.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_martillo.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/35.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/35.mp3'
       }, 
       {
         'image': 'images/martillo.jpg', 
@@ -309,8 +309,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Mano',
-        'sound': '/android_asset/www/audio/mano.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_mano.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/37.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/37.mp3'
       }, 
       {
         'image': 'images/mano.jpg', 
@@ -326,8 +326,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Boca',
-        'sound': '/android_asset/www/audio/boca.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_boca.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/39.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/39.mp3'
       }, 
       {
         'image': 'images/boca.jpg', 
@@ -343,8 +343,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Pecho',
-        'sound': '/android_asset/www/audio/pecho.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_pecho.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/41.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/41.mp3'
       }, 
       {
         'image': 'images/pecho.jpg', 
@@ -360,8 +360,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Brazo',
-        'sound': '/android_asset/www/audio/brazo.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_brazo.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/43.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/43.mp3'
       }, 
       {
         'image': 'images/brazo.jpg', 
@@ -377,8 +377,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Uva',
-        'sound': '/android_asset/www/audio/uva.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_uva.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/45.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/45.mp3'
       }, 
       {
         'image': 'images/uva.jpg', 
@@ -394,8 +394,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Limon',
-        'sound': '/android_asset/www/audio/limon.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_limon.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/47.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/47.mp3'
       }, 
       {
         'image': 'images/limon.jpg', 
@@ -411,8 +411,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Lechuga',
-        'sound': '/android_asset/www/audio/lechuga.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_lechuga.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/49.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/49.mp3'
       }, 
       {
         'image': 'images/lechuga.jpg', 
@@ -428,8 +428,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Papa',
-        'sound': '/android_asset/www/audio/papa.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_papa.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/51.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/51.mp3'
       }, 
       {
         'image': 'images/papa.jpg', 
@@ -445,8 +445,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Televisor',
-        'sound': '/android_asset/www/audio/televisor.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_televisor.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/53.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/53.mp3'
       }, 
       {
         'image': 'images/televisor.jpg', 
@@ -462,8 +462,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Computadora',
-        'sound': '/android_asset/www/audio/computadora.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_computadora.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/55.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/55.mp3'
       }, 
       {
         'image': 'images/computadora.jpg', 
@@ -479,8 +479,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Ropero',
-        'sound': '/android_asset/www/audio/ropero.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_ropero.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/57.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/57.mp3'
       }, 
       {
         'image': 'images/ropero.jpg', 
@@ -496,8 +496,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Biblioteca',
-        'sound': '/android_asset/www/audio/biblioteca.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_biblioteca.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/59.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/59.mp3'
       }, 
       {
         'image': 'images/biblioteca.jpg', 
@@ -513,8 +513,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Mosca',
-        'sound': '/android_asset/www/audio/mosca.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_mosca.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/61.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/61.mp3'
       }, 
       {
         'image': 'images/mosca.jpg', 
@@ -530,8 +530,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Hormiga',
-        'sound': '/android_asset/www/audio/hormiga.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_hormiga.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/63.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/63.mp3'
       }, 
       {
         'image': 'images/hormiga.jpg', 
@@ -547,8 +547,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Mosquito',
-        'sound': '/android_asset/www/audio/mosquito.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_mosquito.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/65.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/65.mp3'
       }, 
       {
         'image': 'images/mosquito.jpg', 
@@ -564,8 +564,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Araña',
-        'sound': '/android_asset/www/audio/arana.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_arana.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/67.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/67.mp3'
       }, 
       {
         'image': 'images/arana.jpg', 
@@ -581,8 +581,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Media',
-        'sound': '/android_asset/www/audio/media.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_media.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/69.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/69.mp3'
       }, 
       {
         'image': 'images/media.jpg', 
@@ -598,8 +598,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Corbata',
-        'sound': '/android_asset/www/audio/corbata.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_corbata.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/71.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/71.mp3'
       }, 
       {
         'image': 'images/corbata.jpg', 
@@ -615,8 +615,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Guante',
-        'sound': '/android_asset/www/audio/guante.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_guante.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/73.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/73.mp3'
       }, 
       {
         'image': 'images/guante.jpg', 
@@ -632,8 +632,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Gargantilla',
-        'sound': '/android_asset/www/audio/gargantilla.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_gargantilla.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/75.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/75.mp3'
       }, 
       {
         'image': 'images/gargantilla.jpg', 
@@ -649,8 +649,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Tijera',
-        'sound': '/android_asset/www/audio/tijera.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_tijera.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/77.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/77.mp3'
       }, 
       {
         'image': 'images/tijera.jpg', 
@@ -666,8 +666,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Cuchillo',
-        'sound': '/android_asset/www/audio/cuchillo.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_cuchillo.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/79.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/79.mp3'
       }, 
       {
         'image': 'images/cuchillo.jpg', 
@@ -683,8 +683,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Aguja',
-        'sound': '/android_asset/www/audio/aguja.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_aguja.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/81.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/81.mp3'
       }, 
       {
         'image': 'images/aguja.jpg', 
@@ -700,8 +700,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Tenedor',
-        'sound': '/android_asset/www/audio/tenedor.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_tenedor.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/83.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/83.mp3'
       }, 
       {
         'image': 'images/tenedor.jpg', 
@@ -717,8 +717,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Cabeza',
-        'sound': '/android_asset/www/audio/cabeza.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_cabeza.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/85.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/85.mp3'
       }, 
       {
         'image': 'images/cabeza.jpg', 
@@ -734,8 +734,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Ojo',
-        'sound': '/android_asset/www/audio/ojo.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_ojo.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/87.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/87.mp3'
       }, 
       {
         'image': 'images/ojo.jpg', 
@@ -751,8 +751,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Cuello',
-        'sound': '/android_asset/www/audio/cuello.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_cuello.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/89.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/89.mp3'
       }, 
       {
         'image': 'images/cuello.jpg', 
@@ -768,8 +768,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Oreja',
-        'sound': '/android_asset/www/audio/oreja.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_oreja.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/91.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/91.mp3'
       }, 
       {
         'image': 'images/oreja.jpg', 
@@ -785,8 +785,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Mandarina',
-        'sound': '/android_asset/www/audio/mandarina.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_mandarina.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/93.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/93.mp3'
       }, 
       {
         'image': 'images/mandarina.jpg', 
@@ -802,8 +802,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Banana',
-        'sound': '/android_asset/www/audio/banana.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_banana.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/95.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/95.mp3'
       }, 
       {
         'image': 'images/banana.jpg', 
@@ -819,8 +819,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Naranja',
-        'sound': '/android_asset/www/audio/naranja.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_naranja.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/97.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/97.mp3'
       }, 
       {
         'image': 'images/naranja.jpg', 
@@ -836,8 +836,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Manzana',
-        'sound': '/android_asset/www/audio/manzana.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_manzana.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio1/99.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio1/99.mp3'
       }, 
       {
         'image': 'images/manzana.jpg', 
@@ -855,8 +855,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [ //Sub-nivel
       {
         'text': 'Mesa',
-        'sound': '/android_asset/www/audio/mesa.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_mesa.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/1.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/1.mp3'
       }, 
       {
         'image': 'images/mesa.jpg', 
@@ -881,8 +881,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [ //Sub-nivel
       {
         'text': 'Sillon',
-        'sound': '/android_asset/www/audio/sillon.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_sillon.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/2.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/2.mp3'
       }, 
       {
         'image': 'images/sillon.jpg', 
@@ -907,8 +907,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Cama',
-        'sound': '/android_asset/www/audio/cama.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_cama.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/3.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/3.mp3'
       }, 
       {
         'image': 'images/cama.jpg', 
@@ -933,8 +933,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Heladera',
-        'sound': '/android_asset/www/audio/heladera.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_heladera.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/4.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/4.mp3'
       }, 
       {
         'image': 'images/heladera.jpg', 
@@ -959,8 +959,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Televisor',
-        'sound': '/android_asset/www/audio/televisor.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_televisor.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/5.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/5.mp3'
       }, 
       {
         'image': 'images/televisor.jpg', 
@@ -985,8 +985,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Ropero',
-        'sound': '/android_asset/www/audio/ropero.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_ropero.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/6.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/6.mp3'
       }, 
       {
         'image': 'images/ropero.jpg', 
@@ -1011,8 +1011,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Perro',
-        'sound': '/android_asset/www/audio/perro.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_perro.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/7.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/7.mp3'
       }, 
       {
         'image': 'images/perro.jpg', 
@@ -1037,8 +1037,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Caballo',
-        'sound': '/android_asset/www/audio/caballo.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_caballo.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/8.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/8.mp3'
       }, 
       {
         'image': 'images/caballo.jpg', 
@@ -1063,8 +1063,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Loro',
-        'sound': '/android_asset/www/audio/loro.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_loro.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/9.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/9.mp3'
       }, 
       {
         'image': 'images/loro.jpg', 
@@ -1089,8 +1089,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Gallo',
-        'sound': '/android_asset/www/audio/gallo.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_gallo.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/10.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/10.mp3'
       }, 
       {
         'image': 'images/gallo.jpg', 
@@ -1115,8 +1115,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Rana',
-        'sound': '/android_asset/www/audio/rana.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_rana.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/11.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/11.mp3'
       }, 
       {
         'image': 'images/rana.jpg', 
@@ -1141,8 +1141,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Mosca',
-        'sound': '/android_asset/www/audio/mosca.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_mosca.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/12.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/12.mp3'
       }, 
       {
         'image': 'images/mosca.jpg', 
@@ -1167,8 +1167,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Hormiga',
-        'sound': '/android_asset/www/audio/hormiga.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_hormiga.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/13.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/13.mp3'
       }, 
       {
         'image': 'images/hormiga.jpg', 
@@ -1193,8 +1193,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Camisa',
-        'sound': '/android_asset/www/audio/camisa.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_camisa.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/14.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/14.mp3'
       }, 
       {
         'image': 'images/camisa.jpg', 
@@ -1219,8 +1219,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Remera',
-        'sound': '/android_asset/www/audio/remera.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_remera.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/15.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/15.mp3'
       }, 
       {
         'image': 'images/remera.jpg', 
@@ -1245,8 +1245,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Bota',
-        'sound': '/android_asset/www/audio/bota.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_bota.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/16.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/16.mp3'
       }, 
       {
         'image': 'images/bota.jpg', 
@@ -1271,8 +1271,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'capa',
-        'sound': '/android_asset/www/audio/capa.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_capa.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/17.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/17.mp3'
       }, 
       {
         'image': 'images/capa.jpg', 
@@ -1297,8 +1297,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Gorro',
-        'sound': '/android_asset/www/audio/gorro.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_gorro.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/18.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/18.mp3'
       }, 
       {
         'image': 'images/gorro.jpg', 
@@ -1323,8 +1323,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Media',
-        'sound': '/android_asset/www/audio/media.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_media.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/19.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/19.mp3'
       }, 
       {
         'image': 'images/media.jpg', 
@@ -1349,8 +1349,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Corbata',
-        'sound': '/android_asset/www/audio/corbata.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_corbata.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/20.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/20.mp3'
       }, 
       {
         'image': 'images/corbata.jpg', 
@@ -1375,8 +1375,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Taza',
-        'sound': '/android_asset/www/audio/taza.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_taza.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/21.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/21.mp3'
       }, 
       {
         'image': 'images/taza.jpg', 
@@ -1401,8 +1401,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Pala',
-        'sound': '/android_asset/www/audio/pala.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_pala.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/22.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/22.mp3'
       }, 
       {
         'image': 'images/pala.jpg', 
@@ -1427,8 +1427,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Martillo',
-        'sound': '/android_asset/www/audio/martillo.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_martillo.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/23.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/23.mp3'
       }, 
       {
         'image': 'images/martillo.jpg', 
@@ -1453,8 +1453,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Tijera',
-        'sound': '/android_asset/www/audio/tijera.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_tijera.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/24.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/24.mp3'
       }, 
       {
         'image': 'images/tijera.jpg', 
@@ -1479,8 +1479,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Cuchillo',
-        'sound': '/android_asset/www/audio/cuchillo.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_cuchillo.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/25.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/25.mp3'
       }, 
       {
         'image': 'images/cuchillo.jpg', 
@@ -1505,8 +1505,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Mano',
-        'sound': '/android_asset/www/audio/mano.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_mano.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/26.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/26.mp3'
       }, 
       {
         'image': 'images/mano.jpg', 
@@ -1531,8 +1531,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Boca',
-        'sound': '/android_asset/www/audio/boca.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_boca.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/27.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/27.mp3'
       }, 
       {
         'image': 'images/boca.jpg', 
@@ -1557,8 +1557,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Pecho',
-        'sound': '/android_asset/www/audio/pecho.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_pecho.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/28.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/28.mp3'
       }, 
       {
         'image': 'images/pecho.jpg', 
@@ -1583,8 +1583,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Brazo',
-        'sound': '/android_asset/www/audio/brazo.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_brazo.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/29.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/29.mp3'
       }, 
       {
         'image': 'images/brazo.jpg', 
@@ -1609,8 +1609,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Cabeza',
-        'sound': '/android_asset/www/audio/cabeza.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_cabeza.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/30.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/30.mp3'
       }, 
       {
         'image': 'images/cabeza.jpg', 
@@ -1635,8 +1635,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Ojo',
-        'sound': '/android_asset/www/audio/ojo.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_ojo.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/31.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/31.mp3'
       }, 
       {
         'image': 'images/ojo.jpg', 
@@ -1661,8 +1661,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Uva',
-        'sound': '/android_asset/www/audio/uva.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_uva.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/32.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/32.mp3'
       }, 
       {
         'image': 'images/uva.jpg', 
@@ -1687,8 +1687,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Limon',
-        'sound': '/android_asset/www/audio/limon.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_limon.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/33.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/33.mp3'
       }, 
       {
         'image': 'images/limon.jpg', 
@@ -1713,8 +1713,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Lechuga',
-        'sound': '/android_asset/www/audio/lechuga.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_lechuga.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/34.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/34.mp3'
       }, 
       {
         'image': 'images/lechuga.jpg', 
@@ -1739,8 +1739,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Papa',
-        'sound': '/android_asset/www/audio/papa.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_papa.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/35.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/35.mp3'
       }, 
       {
         'image': 'images/papa.jpg', 
@@ -1765,8 +1765,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Mandarina',
-        'sound': '/android_asset/www/audio/mandarina.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_mandarina.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/36.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/36.mp3'
       }, 
       {
         'image': 'images/mandarina.jpg', 
@@ -1791,8 +1791,8 @@ var niveles_palabras_aisladas_cosas = [ //Niveles
     [//Sub-nivel
       {
         'text': 'Manzana',
-        'sound': '/android_asset/www/audio/manzana.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_manzana.mp3'
+        'sound': '/android_asset/www/audio/Cosas/Ejercicio2/37.mp3', 
+        'wordSound' : '/android_asset/www/audio/Cosas/Ejercicio2/37.mp3'
       }, 
       {
         'image': 'images/manzana.jpg', 
