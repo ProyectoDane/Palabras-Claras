@@ -2,413 +2,785 @@ var niveles_palabras_contexto_cosas = [ //Niveles
   [ //Nivel
     [ //Sub-nivel
       {
-        'text': 'Escalar',
-        'sound': '/android_asset/www/audio/contexto_escalar.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_escalar.mp3'
+        'text': 'Mesa',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/1.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/1.mp3'
       }, 
       {
-        'image': 'images/escalar.jpg', 
+        'image': 'images/mesa.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/nadar.jpg', 
+        'image': 'images/silla.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Nadar',
-        'sound': '/android_asset/www/audio/contexto_nadar.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_nadar.mp3'
+        'text': 'Silla',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/2.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/2.mp3'
       }, 
       {
-        'image': 'images/nadar.jpg', 
+        'image': 'images/silla.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/escalar.jpg', 
+        'image': 'images/mesa.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Bostezar',
-        'sound': '/android_asset/www/audio/contexto_bostezar.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_bostezar.mp3'
+        'text': 'Heladera',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/3.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/3.mp3'
       }, 
       {
-        'image': 'images/bostezar.jpg', 
+        'image': 'images/heladera.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/estornudar.jpg', 
+        'image': 'images/lavarropas.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Estornudar',
-        'sound': '/android_asset/www/audio/contexto_estornudar.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_estornudar.mp3'
+        'text': 'Lavarropas',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/4.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/4.mp3'
       }, 
       {
-        'image': 'images/estornudar.jpg', 
+        'image': 'images/lavarropas.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/bostezar.jpg', 
+        'image': 'images/heladera.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Revolver',
-        'sound': '/android_asset/www/audio/contexto_revolver2.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_revolver2.mp3'
+        'text': 'Perro',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/6.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/6.mp3'
       }, 
       {
-        'image': 'images/revolver2.jpg', 
+        'image': 'images/perro.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/batir.jpg', 
+        'image': 'images/gato.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Batir',
-        'sound': '/android_asset/www/audio/contexto_batir.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_batir.mp3'
+        'text': 'Gato',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/7.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/7.mp3'
       }, 
       {
-        'image': 'images/batir.jpg', 
+        'image': 'images/gato.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/revolver2.jpg', 
+        'image': 'images/perro.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Lavar',
-        'sound': '/android_asset/www/audio/contexto_lavar.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_lavar.mp3'
+        'text': 'Gallo',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/8.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/8.mp3'
       }, 
       {
-        'image': 'images/lavar.jpg', 
+        'image': 'images/gallo.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/barrer.jpg', 
+        'image': 'images/gallina.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Barrer',
-        'sound': '/android_asset/www/audio/contexto_barrer.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_barrer.mp3'
+        'text': 'Gallina',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/9.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/9.mp3'
       }, 
       {
-        'image': 'images/barrer.jpg', 
+        'image': 'images/gallina.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/lavar.jpg', 
+        'image': 'images/gallo.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Hervír',
-        'sound': '/android_asset/www/audio/contexto_hervir.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_hervir.mp3'
+        'text': 'Camisa',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/11.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/11.mp3'
       }, 
       {
-        'image': 'images/hervir.jpg', 
+        'image': 'images/camisa.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/freir.jpg', 
+        'image': 'images/pantalon.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Freír',
-        'sound': '/android_asset/www/audio/contexto_freir.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_freir.mp3'
+        'text': 'Pantalón',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/12.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/12.mp3'
       }, 
       {
-        'image': 'images/freir.jpg', 
+        'image': 'images/pantalon.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/hervir.jpg', 
+        'image': 'images/camisa.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Llover',
-        'sound': '/android_asset/www/audio/contexto_llover.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_llover.mp3'
+        'text': 'Bota',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/13.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/13.mp3'
       }, 
       {
-        'image': 'images/llover.jpg', 
+        'image': 'images/bota.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/nevar.jpg', 
+        'image': 'images/zapato.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Nevar',
-        'sound': '/android_asset/www/audio/contexto_nevar.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_nevar.mp3'
+        'text': 'Zapato',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/14.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/14.mp3'
       }, 
       {
-        'image': 'images/nevar.jpg', 
+        'image': 'images/zapato.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/llover.jpg', 
+        'image': 'images/bota.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Ver',
-        'sound': '/android_asset/www/audio/contexto_ver.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_ver.mp3'
+        'text': 'Sacacorchos',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/16.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/16.mp3'
       }, 
       {
-        'image': 'images/ver.jpg', 
+        'image': 'images/sacacorchos.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/tocar.jpg', 
+        'image': 'images/abrelatas.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Tocar',
-        'sound': '/android_asset/www/audio/contexto_tocar.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_tocar.mp3'
+        'text': 'Abrelatas',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/17.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/17.mp3'
       }, 
       {
-        'image': 'images/tocar.jpg', 
+        'image': 'images/abrelatas.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/ver.jpg', 
+        'image': 'images/sacacorchos.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Oler',
-        'sound': '/android_asset/www/audio/contexto_oler.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_oler.mp3'
+        'text': 'Martillo',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/18.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/18.mp3'
       }, 
       {
-        'image': 'images/oler.jpg', 
+        'image': 'images/martillo.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/oir.jpg', 
+        'image': 'images/pinza.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Oír',
-        'sound': '/android_asset/www/audio/contexto_oir.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_oir.mp3'
+        'text': 'Pinza',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/19.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/19.mp3'
       }, 
       {
-        'image': 'images/oir.jpg', 
+        'image': 'images/pinza.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/oler.jpg', 
+        'image': 'images/martillo.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Volar',
-        'sound': '/android_asset/www/audio/contexto_volar.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_volar.mp3'
+        'text': 'Pecho',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/21.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/21.mp3'
       }, 
       {
-        'image': 'images/volar.jpg', 
+        'image': 'images/pecho.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/navegar.jpg', 
+        'image': 'images/espalda.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Navegar',
-        'sound': '/android_asset/www/audio/contexto_navegar.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_navegar.mp3'
+        'text': 'Espalda',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/22.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/22.mp3'
       }, 
       {
-        'image': 'images/navegar.jpg', 
+        'image': 'images/espalda.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/volar.jpg', 
+        'image': 'images/pecho.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Cortar',
-        'sound': '/android_asset/www/audio/contexto_cortar.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_cortar.mp3'
+        'text': 'Brazo',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/23.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/23.mp3'
       }, 
       {
-        'image': 'images/cortar.jpg', 
+        'image': 'images/brazo.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/pinchar.jpg', 
+        'image': 'images/pierna.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Pinchar',
-        'sound': '/android_asset/www/audio/contexto_pinchar.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_pinchar.mp3'
+        'text': 'Pierna',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/24.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/24.mp3'
       }, 
       {
-        'image': 'images/pinchar.jpg', 
+        'image': 'images/pierna.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/cortar.jpg', 
+        'image': 'images/brazo.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Comprar',
-        'sound': '/android_asset/www/audio/contexto_comprar.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_comprar.mp3'
+        'text': 'Limón',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/26.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/26.mp3'
       }, 
       {
-        'image': 'images/comprar.jpg', 
+        'image': 'images/limon.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/vender.jpg', 
+        'image': 'images/pomelo.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Vender',
-        'sound': '/android_asset/www/audio/contexto_vender.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_vender.mp3'
+        'text': 'Pomelo',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/27.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/27.mp3'
       }, 
       {
-        'image': 'images/vender.jpg', 
+        'image': 'images/pomelo.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/comprar.jpg', 
+        'image': 'images/limon.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Subir',
-        'sound': '/android_asset/www/audio/contexto_subir.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_subir.mp3'
+        'text': 'Lechuga',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/28.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/28.mp3'
       }, 
       {
-        'image': 'images/subir.jpg', 
+        'image': 'images/lechuga.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/bajar.jpg', 
+        'image': 'images/acelga.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ],
     [ //Sub-nivel
       {
-        'text': 'Bajar',
-        'sound': '/android_asset/www/audio/contexto_bajar.mp3', 
-        'wordSound' : '/android_asset/www/audio/word_bajar.mp3'
+        'text': 'Acelga',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/29.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/29.mp3'
       }, 
       {
-        'image': 'images/bajar.jpg', 
+        'image': 'images/acelga.jpg', 
         'points':100, 
         'type': CORRECTA
       }, 
       {
-        'image': 'images/subir.jpg', 
+        'image': 'images/lechuga.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Computadora',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/31.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/31.mp3'
+      }, 
+      {
+        'image': 'images/computadora.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/computadoras.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Computadoras',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/32.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/32.mp3'
+      }, 
+      {
+        'image': 'images/computadoras.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/computadora.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Biblioteca',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/33.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/33.mp3'
+      }, 
+      {
+        'image': 'images/biblioteca.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/bibliotecas.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Bibliotecas',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/34.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/34.mp3'
+      }, 
+      {
+        'image': 'images/bibliotecas.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/biblioteca.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Hormiga',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/35.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/35.mp3'
+      }, 
+      {
+        'image': 'images/hormiga.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/hormigas.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Hormigas',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/36.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/36.mp3'
+      }, 
+      {
+        'image': 'images/hormigas.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/hormiga.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Mosquito',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/37.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/37.mp3'
+      }, 
+      {
+        'image': 'images/mosquito.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/mosquitos.jpg',
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Mosquitos',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/38.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/38.mp3'
+      }, 
+      {
+        'image': 'images/mosquitos.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/mosquito.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Media',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/40.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/40.mp3'
+      }, 
+      {
+        'image': 'images/media.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/medias.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Medias',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/41.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/41.mp3'
+      }, 
+      {
+        'image': 'images/medias.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/media.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Corbata',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/42.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/42.mp3'
+      }, 
+      {
+        'image': 'images/corbata.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/corbatas.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Corbatas',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/43.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/43.mp3'
+      }, 
+      {
+        'image': 'images/corbatas.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/corbata.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Tijera',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/45.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/45.mp3'
+      }, 
+      {
+        'image': 'images/tijera.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/tijeras.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Tijeras',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/45.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/45.mp3'
+      }, 
+      {
+        'image': 'images/tijeras.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/tijera.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Cuchillo',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/47.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/47.mp3'
+      }, 
+      {
+        'image': 'images/cuchillo.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/cuchillos.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Cuchillos',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/48.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/48.mp3'
+      }, 
+      {
+        'image': 'images/cuchillos.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/cuchillo.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Ojo',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/50.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/50.mp3'
+      }, 
+      {
+        'image': 'images/ojo.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/ojos.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Ojos',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/51.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/51.mp3'
+      }, 
+      {
+        'image': 'images/ojos.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/ojo.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Oreja',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/52.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/52.mp3'
+      }, 
+      {
+        'image': 'images/oreja.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/orejas.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Orejas',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/53.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/53.mp3'
+      }, 
+      {
+        'image': 'images/orejas.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/oreja.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Manzana',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/55.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/55.mp3'
+      }, 
+      {
+        'image': 'images/manzana.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/manzanas.jpg', 
+        'points':50, 
+        'type': DISTRACTOR_SEMANTICO
+      }
+    ],
+    [ //Sub-nivel
+      {
+        'text': 'Manzanas',
+        'sound': '/android_asset/www/audio/Contexto/Cosas/56.mp3', 
+        'wordSound' : '/android_asset/www/audio/Contexto/Cosas/56.mp3'
+      }, 
+      {
+        'image': 'images/manzanas.jpg', 
+        'points':100, 
+        'type': CORRECTA
+      }, 
+      {
+        'image': 'images/manzana.jpg', 
         'points':50, 
         'type': DISTRACTOR_SEMANTICO
       }
     ]
-  ]              
+  ]
 ];
-
-

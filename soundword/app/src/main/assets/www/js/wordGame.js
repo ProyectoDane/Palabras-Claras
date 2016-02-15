@@ -53,7 +53,7 @@ function createWords(){
 	//Al iniciar el juego se cargan los niveles para los distintos modos
 	cargar(palabras_aisladas_cosas, niveles_palabras_aisladas_cosas);
 	cargar(palabras_aisladas_acciones, niveles_palabras_aisladas_acciones);
-	cargar(palabras_contexto_cosas, niveles_palabras_aisladas_cosas);
+	cargar(palabras_contexto_cosas, niveles_palabras_contexto_cosas);
 	cargar(palabras_contexto_acciones, niveles_palabras_contexto_acciones);
 	tipos_opciones_elegidas = [];
 }
