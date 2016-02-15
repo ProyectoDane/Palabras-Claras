@@ -91,6 +91,8 @@ ADDED from AndroidManifest.xml:44:9
 		ADDED from AndroidManifest.xml:46:17
 	android:label
 		ADDED from AndroidManifest.xml:44:44
+	android:configChanges
+		ADDED from AndroidManifest.xml:46:56
 	android:theme
 		ADDED from AndroidManifest.xml:45:17
 	android:name
